@@ -101,6 +101,7 @@ independent of sensitivity labels.
 | C3 | Does each record capture algorithm, key length, **custody, rotation, and a named owner** - not just algorithm and length? | |
 | C4 | Is the inventory maintained by process (change management, procurement, CI/CD integration), not by one-off audit? | |
 | C5 | Would your inventory satisfy the EU end-2026 inventory-and-dependency-map requirement if it applied to you today? | |
+| C6 | Can the CBOM be automatically cross-referenced against known-vulnerable algorithm and library advisories (CVE feeds, vendor PQC deprecation notices), or does flagging exposure still require manual review? | |
 
 ## Domain D - Crypto-agility (QS05)
 
